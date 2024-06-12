@@ -3,7 +3,7 @@ Rongyu Zhang, Xiaowei Chi, Wenyi Zhang, Guiliang Liu, Dan Wang, Fangxin Wang
 
 <img src="utmp.png"/>
 
-## Usage
+## Installation
 
 ### Prerequisites
 - Python 3.6/3.7
@@ -34,7 +34,7 @@ and put the downloaded data in 'data/'.
 
 2. Command as follows
 ~~~~
-python main.py [--FLAGS]
+python main.py --MCMCtrain [--FLAGS]
 ~~~~
 
 ### Acknowledgement
