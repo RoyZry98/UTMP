@@ -37,5 +37,16 @@ and put the downloaded data in 'data/'.
 python main.py --MCMCtrain [--FLAGS]
 ~~~~
 
+## Citation
+Please cite our work if you find it useful.
+```bibtex
+@article{zhang2023unimodal,
+  title={Unimodal Training-Multimodal Prediction: Cross-modal Federated Learning with Hierarchical Aggregation},
+  author={Zhang, Rongyu and Chi, Xiaowei and Liu, Guiliang and Zhang, Wenyi and Du, Yuan and Wang, Fangxin},
+  journal={arXiv preprint arXiv:2303.15486},
+  year={2023}
+}
+```
+
 ### Acknowledgement
 Some portion of the code were adapted from the [MulT](https://github.com/yaohungt/Multimodal-Transformer) repo.
