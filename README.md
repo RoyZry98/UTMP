@@ -1,4 +1,14 @@
-# Unimodal Training-Multimodal Prediction: Cross-modal Federated Learning with Hierarchical Aggregation
+# Unimodal Training-Multimodal Prediction: Cross-modal Federated Learning with Hierarchical Aggregation [**[Arxiv]**](https://arxiv.org/pdf/2303.15486)
+Rongyu Zhang, Xiaowei Chi, Wenyi Zhang, Guiliang Liu, Dan Wang, Fangxin Wang
+
+<img src="utmp.png"/>
+
+## Usage
+
+### Prerequisites
+- Python 3.6/3.7
+- [Pytorch (>=1.0.0) and torchvision](https://pytorch.org/)
+- CUDA 10.0 or above
 
 ### Datasets
 
@@ -12,3 +22,20 @@ unzip Archive.zip
 ~~~~
 
 To retrieve the meta information and the raw data, please refer to the [SDK for these datasets](https://github.com/A2Zadeh/CMU-MultimodalSDK).
+
+### Run the Code
+
+1. Create (empty) folders for data and pre-trained models:
+~~~~
+mkdir data pre_trained_models
+~~~~
+
+and put the downloaded data in 'data/'.
+
+2. Command as follows
+~~~~
+python main.py [--FLAGS]
+~~~~
+
+### Acknowledgement
+Some portion of the code were adapted from the [MulT](https://github.com/yaohungt/Multimodal-Transformer) repo.
